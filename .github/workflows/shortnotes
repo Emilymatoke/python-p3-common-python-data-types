@@ -1,0 +1,71 @@
+DATA-TYPES.- used for storing data
+
+
+Strings.
+  -These are words and are enclosed in "" or  ''
+  -Can have a str() constructor function- e.g str("")
+  -Can also have f string functions that can be used for interpolation for assigning value to a variable.
+     e.g cat_name="Billy"
+        print(f"Say hi to my cat {cat_name}")
+  -f string funtions can also be used in assigning decimal places.
+      e.g price_3=3.3
+          print(f"The food's price is {price_3: .2f}")
+    For uppercase - .upper()
+    For lowercase - .lower()
+    For capital - .capitalize()
+    Repeat - *n
+    Join words - +
+
+
+
+
+Numbers
+  -integers=int()
+  -floats=float()
+
+
+
+SEQUENCE TYPES- contain different datatypes
+
+Lists
+  -enclosed in [] and separated by commas;it is the class/literal constructors, e.g [1, 2, 3]
+  -can have a list syntax, i.e list()
+
+  If you want to sort- sorted()
+  If you want the length- len()
+  If you want to remove an element- .remove() then print
+
+
+Tuples
+  -can use tuple() constructor
+  -enclose in ()
+  -can be used in iteration and cast lists, e.g ([1, 2, 3])
+  -immutable propety= cannot be chaged its structure hence used in databases for accuracy
+
+
+Set-s
+  -initialized by {} and set()
+  -unordered, unindexed and unchangableable(an element cannot be changed)
+  therefore can use .pop, .remove
+  e.g set([1, 2, 3, 's', 'q'])
+      {4, 6, 'f'}
+
+
+Dictionaries
+    -can be initialise bt dict() or
+    -{} 
+    -if not listed use print( get.())
+
+
+None- absence of a value
+  e.g no_value= None-must assign
+
+
+Boolean - True or False
+  -not reverses it
+  
+  
+    
+
+
+
